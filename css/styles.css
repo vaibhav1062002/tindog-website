@@ -1,0 +1,178 @@
+body{
+  font-family: "Montserrat";
+text-align:center;
+}
+
+
+h1, h2,h3,h4,{
+  font-family:"Montserrat-bold";
+
+}
+
+p{
+  color: #bfbfbf;
+}
+
+
+/* heading */
+
+
+.big-heading{
+font-family: 'Montserrat-black';
+  font-size: 3.5rem;
+  line-height: 1.5;
+  font-weight:bold;
+  text-align: left;
+}
+
+/* color section */
+
+.color-section{
+
+  color: #fff;
+background-image: linear-gradient(to right, #f22e6c ,#f55d8d,#f22e6c);
+
+}
+.white-section{
+    background-color: #fff;
+}
+
+/* navigation bar */
+
+.navbar{
+padding-bottom: 4.5rem;
+}
+.nav-item{
+padding:0 0 18px;
+}
+.nav-link{
+font-size: 1.2rem;
+font-family: "Montserrat-light"
+}
+.navbar-brand{
+   font-family: "Ubuntu";
+   font-size: 2.5rem;
+   font-weight: bold;
+}
+
+/* container-fluid */
+.container-fluid{
+  padding: 7% 15%;
+}
+
+/* title section */
+
+#title .container-fluid{
+  padding: 3% 15% 5%;
+}
+.rotate-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+
+}
+
+/* features   section*/
+#features{
+  position:relative;
+
+}
+.feature-title{
+    font-size: 1.5rem;
+
+}
+
+
+.icon{
+  color: #ef7182;
+  margin-bottom: 1rem;
+
+}
+.icon:hover{
+  color:#ff4c68;
+}
+
+
+/* download button */
+.download-btn {
+margin: 5% 3% 5% 0;
+}
+
+/* Testimonials section */
+
+#testimonials{
+  background-image: linear-gradient(to right,#eb818f ,#ff96a4,#eb818f);
+
+ }
+
+.testimonial-image{
+  width: 10%;
+ border-radius: 100%;
+ margin:20px;
+
+}
+.testimonial-text{
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+/* press section */
+
+#press{
+background-image: linear-gradient(to right,#eb818f ,#ff96a4,#eb818f);
+
+padding-bottom: 3%;
+
+}
+.press-logo{
+  width:15%;
+}
+
+/* pricing section */
+
+#pricing{
+  padding: 100px;
+
+}
+.pricing-card{
+  padding: 3% 3%;
+}
+
+
+  /* <!-- Call to Action  section--> */
+
+  .cta-heading{
+    font-family: 'Montserrat-black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: bold;
+  }
+
+    /* <!-- Footer  section--> */
+
+.social-icon{
+  margin:20px 10px;
+}
+
+.social-icon:hover{
+  color: #fce6e8;
+  font-size: 3rem;
+}
+
+
+/* @media quary */
+
+    @media (max-width:993px) {
+      #title{
+      text-align: center;
+      }
+      .rotate-image{
+        width: 60%;
+        transform: rotate(0deg);
+        position: static;
+        padding-top: 30px;
+
+      }
+    }
